@@ -14,8 +14,8 @@
     }
     public class Message
     {
-        public string Application;
+        public string Application { get; set; }
 
-        public string StatusOverride;
+        public string StatusOverride { get; set; }
     }
 }
